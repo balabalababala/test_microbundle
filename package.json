@@ -1,0 +1,39 @@
+{
+  "name": "test_microbundle",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.js",
+  "main": "dist/foo.js",
+  "module": "dist/foo.m.js",
+  "umd:main": "dist/foo.umd.js",
+  "unpkg": "dist/foo.umd.js",
+  "browser": "dist/foo.browser.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "files": [
+    "dist",
+    "example",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balabalababala/test_microbundle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balabalababala/test_microbundle/issues"
+  },
+  "homepage": "https://github.com/balabalababala/test_microbundle#readme",
+  "devDependencies": {
+    "microbundle": "^0.13.3"
+  },
+  "npm": {
+    "mode": "yarn"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  }
+}

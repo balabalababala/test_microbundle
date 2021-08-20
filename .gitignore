@@ -1,0 +1,18 @@
+.eslintcache
+
+# dependencies
+/node_modules
+
+# production
+/dist
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-error.log
+.tea
+*.swp
+yarn.lock
+
+
+
