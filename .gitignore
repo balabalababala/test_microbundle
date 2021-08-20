@@ -4,7 +4,7 @@
 /node_modules
 
 # production
-/dist
+
 
 # misc
 .DS_Store
@@ -13,6 +13,8 @@ yarn-error.log
 .tea
 *.swp
 yarn.lock
+
+*.map
 
 
 
